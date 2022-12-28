@@ -75,7 +75,7 @@ for x in range(1,5):
   for y in range(4):
     if x == 4 and y == 0:
       btn = Button(window,width=2, text=btns[x-1][y], command=lambda: eval_all())
-    else if x == 1 and y == 3:
+    elif x == 1 and y == 3:
       btn = Button(window,width=2, text=btns[x-1][y], command=lambda v=btns[x-1][y]: add_to_entry(v))
     else:
       btn = Button(window,width=2, text=btns[x-1][y], command=lambda v=btns[x-1][y]: add_to_entry(v))
